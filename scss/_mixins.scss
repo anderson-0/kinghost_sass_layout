@@ -5,6 +5,8 @@
 }
 
 @mixin style-btn($height, $bg, $color) {
+  display: inline-block;
+  line-height: $height;
   height: $height;
   background-color: $bg;
   color: $color;
