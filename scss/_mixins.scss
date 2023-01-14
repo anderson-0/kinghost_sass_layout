@@ -3,3 +3,20 @@
     @content;
   }
 }
+
+@mixin style-btn($height, $bg, $color) {
+  height: $height;
+  background-color: $bg;
+  color: $color;
+  border-radius: 6px;
+  padding: 0 5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    background-color: $color;
+    color: $bg;
+  }
+}
