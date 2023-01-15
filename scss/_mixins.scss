@@ -23,9 +23,9 @@
   }
 }
 
-@mixin flex($direction, $justify, $align) {
+@mixin flex($direction, $align, $justify) {
   display: flex;
   flex-direction: $direction;
-  justify-content: $justify;
   align-items: $align;
+  justify-content: $justify;
 }
