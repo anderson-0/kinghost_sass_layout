@@ -47,8 +47,10 @@ header {
   }
 
   @include responsive(480px) {
-    header {
-      height: 8.4rem;
+    height: 8rem;
+
+    .logo {
+      max-width: 140px;
     }
   }
 }
